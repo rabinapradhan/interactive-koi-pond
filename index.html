@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1d68ab" />
+    <title>Nagomi — Little Koi Pond</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main class="pond-shell">
+      <canvas
+        id="pond"
+        aria-label="Interactive koi pond. Click the water to call the fish."
+      ></canvas>
+
+      <header class="topbar">
+        <span class="hint"
+          >Take a break from coding. Feed the koi, create ripples, and enjoy the
+          pond!</span
+        >
+      </header>
+
+      <section class="dock" aria-label="Pond controls">
+        <button id="feed">✦ Feed the Koi</button>
+      </section>
+    </main>
+
+    <script defer src="./src/main.js"></script>
+  </body>
+</html>
